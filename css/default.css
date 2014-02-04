@@ -1,0 +1,80 @@
+header {
+    text-align: center;
+    margin-bottom: 3em;
+}
+footer {
+    margin-top: 5em;
+}
+footer div {
+    border-top: 1px solid #999;
+    padding-top: 2em;
+}
+h1, h2, h3 {
+    color: rgb(204, 51, 51);
+}
+ul {
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+.center {
+    text-align:center;
+}
+
+a {
+    text-decoration: underline;
+    color: rgb(51, 51, 51);
+}
+a:hover, a:active {
+    color: rgb(204, 51, 51);;
+}
+
+.game-resume {
+    padding: 10px;
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.game-resume .game-schedule {
+    font-style: italic;
+    color: #888;
+    margin-right: 15px;
+}
+.game-resume .game-team {
+    font-weight: bold;
+}
+
+.game-resume .game-win {
+    margin-left: 2em;
+    margin-right: 2em;
+    background-color: #ddd;
+    padding: 3px 10px;
+    border-radius: 10px;
+}
+
+.game-resume .game-score {
+    background-color: #ddd;
+    padding: 3px 10px;
+    border-radius: 10px;
+    font-family: monospace;
+    font-weight: bold;
+}
+.game-resume .game-description .game-picture {
+    text-align: center;
+}
+
+/* Mailchimp */
+#mc_embed_signup{
+    background:#fff;
+    clear:left;
+    font:14px Helvetica,Arial,sans-serif;
+}
+#mc_embed_signup form {
+    padding: 0px;
+}
+#mc_embed_signup label {
+    font-size: 14px;
+    font-weight: normal;
+}
