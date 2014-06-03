@@ -30,6 +30,14 @@ a:hover, a:active {
     color: rgb(204, 51, 51);;
 }
 
+.article h3 {
+    font-size: 1.3em;
+}
+.article ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
 .game-resume {
     padding: 10px;
     border: solid 1px #ddd;
